@@ -25,7 +25,6 @@
   },
   "description": "Class Example for Week 06",
   "main": "server.js",
-  "devDependencies": {},
   "author": "Julio Vinicius",
   "license": "MIT"
 }

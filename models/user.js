@@ -6,14 +6,11 @@ let UserSchema = mongoose.Schema(
     {
         firstName: String,
         lastName: String,
-        email: {
-            type: String,
-            match: [/.+\@.+\..+/, "Please fill a valid e-mail address"]
-        },
         username: {
             type: String,
             unique: true,
-            required: 'Username is required',
+            required: 'Email is required',
+            match: [/.+\@.+\..+/, "Please fill a valid e-mail address"],
             trim: true
         },
         password: {

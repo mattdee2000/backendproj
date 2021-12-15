@@ -1,4 +1,4 @@
 module.exports = {
-    "AtlasDB": process.env.ATLASDB,
-    "SecretOrKey": process.env.SECRETKEY
+    "AtlasDB": "mongodb+srv://dbadmin:123321@clustermatt.1gosb.mongodb.net/projectbase",
+    "SecretOrKey": "abc123"
 }
